@@ -1,0 +1,26 @@
+# Magento directories to ignore
+/app/etc/env.php
+/app/etc/config.php
+/var/*
+/pub/static/*
+/pub/media/*
+/generated/*
+/vendor/*
+
+# Allow important static files
+!pub/static/.htaccess
+!pub/media/.htaccess
+
+# Composer files
+/composer.lock
+
+# IDE / OS files
+/.idea/
+/*.iml
+/.vscode/
+/.DS_Store
+Thumbs.db
+
+# Deployment keys
+/deploy.php
+/.env
